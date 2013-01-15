@@ -183,11 +183,9 @@ nnoremap <leader><space> :noh<cr>
 
 " neocomplecache {{{
 
-        " NOTE: There are a lot of settings for this plugin. This config is
-        " very fragile. I don't exactly understand what everything in here
-        " does, but if you fuck with it, neocomplcache doesn't do what you
-        " want, so here it is. After much work / effort / trial and error, the
-        " below config works as closely to intellisense I could get it.
+        " There are many settings here. Don't mess with it unless you really
+        " know what your doing. This is as close to Intellisense as we can get
+        " right now.
 
         " Only show if I've stopped typing for a tenth second.
         let g:neocomplcache_enable_cursor_hold_i = 1
